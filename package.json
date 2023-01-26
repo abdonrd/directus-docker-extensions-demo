@@ -1,0 +1,9 @@
+{
+  "name": "directus-demo",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present"
+  },
+  "workspaces": [
+    "directus-extension-*"
+  ]
+}

@@ -2,6 +2,7 @@
 
 ## Prerequisites
 
+- [node.js](https://nodejs.org)
 - [Docker](https://www.docker.com)
 
 ## Start the development server

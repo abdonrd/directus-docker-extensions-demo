@@ -1,0 +1,26 @@
+{
+  "name": "directus-extension-extension-name",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build -w --no-minify",
+    "link": "directus-extension link"
+  },
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-custom-hook"
+  ],
+  "devDependencies": {
+    "@directus/extensions-sdk": "9.22.4",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "directus:extension": {
+    "type": "hook",
+    "path": "dist/index.js",
+    "source": "src/index.ts",
+    "host": "^9.22.4"
+  },
+  "icon": "extension"
+}
