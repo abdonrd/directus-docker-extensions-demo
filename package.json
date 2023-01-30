@@ -4,6 +4,6 @@
     "build": "npm run build --workspaces --if-present"
   },
   "workspaces": [
-    "directus-extension-*"
+    "extensions/directus-extension-*"
   ]
 }

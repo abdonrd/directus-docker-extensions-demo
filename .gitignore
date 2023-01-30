@@ -1,4 +1,4 @@
 data/
-directus-extension-*/dist/
+extensions/directus-extension-*/dist/
 node_modules/
 uploads/
